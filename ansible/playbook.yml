@@ -6,7 +6,7 @@
   
     - name: copy war file
       copy:
-        src: "/var/snap/jenkins/5013/workspace/myansible8-CICD/target/myansible8.war"
+        src: "/var/snap/jenkins/5042/workspace/myansible8-CICD/target/myansible8.war"
         dest: "/opt/tomcat/webapps/myansible8.war"
         remote_src: no
         
